@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.pnp
+.pnp.js
+
+# Build outputs
+.next/
+.contentlayer/
+out/
+dist/
+build/
+
+# Generated files
+
+# Logs
+*.log
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Package manager lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Submodules
+tools/playwright-vsco-downloader/
