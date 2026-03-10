@@ -182,7 +182,9 @@ describe("Unsplash Utility Functions", () => {
         JSON.stringify(manifestWithoutLocalPath)
       );
 
-      const result = resolveUnsplashImage("https://unsplash.com/photos/testIdABCDE");
+      const result = resolveUnsplashImage(
+        "https://unsplash.com/photos/testIdABCDE"
+      );
       expect(result).toBe("https://images.unsplash.com/test-image.jpg");
     });
   });

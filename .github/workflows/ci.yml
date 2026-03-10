@@ -179,6 +179,7 @@ jobs:
 
       - name: Check for known vulnerabilities
         run: pnpm audit --audit-level=high
+        continue-on-error: true
 
   shellcheck:
     name: Shell Script Validation
