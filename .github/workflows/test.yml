@@ -21,7 +21,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 10.15.0
+          version: 10.30.0
 
       - name: Setup Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
@@ -39,7 +39,7 @@ jobs:
         run: pnpm run type-check
 
       - name: Run unit tests
-        run: pnpm test
+        run: pnpm run test:run
 
       - name: Generate coverage report
         run: pnpm run test:coverage

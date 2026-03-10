@@ -1,11 +1,11 @@
-site_name: nicholasadamou.com Documentation
-site_description: Developer documentation for nicholasadamou.com
+site_name: v4 Documentation
+site_description: Developer documentation for nicholasadamou.com (v4)
 site_author: Nicholas Adamou
-site_url: https://nicholasadamou.github.io/nicholasadamou.com
+site_url: https://nicholasadamou.github.io/v4
 
-repo_name: nicholasadamou/nicholasadamou.com
-repo_url: https://github.com/nicholasadamou/nicholasadamou.com
-edit_uri: edit/main/docs/src/
+repo_name: nicholasadamou/v4
+repo_url: https://github.com/nicholasadamou/v4
+edit_uri: edit/master/docs/src/
 
 docs_dir: src
 site_dir: build
@@ -110,7 +110,7 @@ markdown_extensions:
   - pymdownx.magiclink:
       repo_url_shorthand: true
       user: nicholasadamou
-      repo: nicholasadamou.com
+      repo: v4
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:

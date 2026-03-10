@@ -6,10 +6,10 @@
 ![Framer Motion](https://img.shields.io/badge/-Framer%20Motion-0081C9?style=flat-square&logo=framer&logoColor=white)
 ![Contentlayer](https://img.shields.io/badge/-Contentlayer-7C3AED?style=flat-square&logo=contentlayer&logoColor=white)
 
-[![Continuous Integration](https://github.com/nicholasadamou/nicholasadamou.com/actions/workflows/ci.yml/badge.svg)](https://github.com/nicholasadamou/nicholasadamou.com/actions/workflows/ci.yml)
-[![Unit Tests](https://github.com/nicholasadamou/nicholasadamou.com/actions/workflows/test.yml/badge.svg)](https://github.com/nicholasadamou/nicholasadamou.com/actions/workflows/test.yml)
-[![Test Coverage](https://github.com/nicholasadamou/nicholasadamou.com/actions/workflows/coverage.yml/badge.svg)](https://github.com/nicholasadamou/nicholasadamou.com/actions/workflows/coverage.yml)
-[![Shell Script Validation](https://github.com/nicholasadamou/nicholasadamou.com/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/nicholasadamou/nicholasadamou.com/actions/workflows/shellcheck.yml)
+[![Continuous Integration](https://github.com/nicholasadamou/v4/actions/workflows/ci.yml/badge.svg)](https://github.com/nicholasadamou/v4/actions/workflows/ci.yml)
+[![Unit Tests](https://github.com/nicholasadamou/v4/actions/workflows/test.yml/badge.svg)](https://github.com/nicholasadamou/v4/actions/workflows/test.yml)
+[![Test Coverage](https://github.com/nicholasadamou/v4/actions/workflows/coverage.yml/badge.svg)](https://github.com/nicholasadamou/v4/actions/workflows/coverage.yml)
+[![Shell Script Validation](https://github.com/nicholasadamou/v4/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/nicholasadamou/v4/actions/workflows/shellcheck.yml)
 
 > A modern, clean, and performant personal portfolio website built with Next.js 15, featuring MDX blog posts, dynamic content management, and a beautiful dark mode experience.
 
@@ -33,7 +33,7 @@ Previous iterations: [v1](https://github.com/nicholasadamou/v1), [v2](https://gi
 
 ## 📖 Documentation
 
-For comprehensive developer documentation, visit the **[MkDocs Documentation Site](https://nicholasadamou.github.io/nicholasadamou.com/)**.
+For comprehensive developer documentation, visit the **[MkDocs Documentation Site](https://nicholasadamou.github.io/v4/)**.
 
 The documentation includes:
 
@@ -64,7 +64,7 @@ To build and serve the docs locally, see [`docs/README.md`](docs/README.md).
 - **Vercel Postgres** for analytics
 - **Framer Motion** for animations
 
-For detailed tech stack information, see the [Architecture documentation](https://nicholasadamou.github.io/nicholasadamou.com/architecture/tech-stack/).
+For detailed tech stack information, see the [Architecture documentation](https://nicholasadamou.github.io/v4/architecture/tech-stack/).
 
 ## 📁 Project Structure
 
@@ -86,7 +86,7 @@ tools/                # Development tools (Playwright downloaders)
 docs/                 # MkDocs documentation site
 ```
 
-For a complete project structure breakdown, see the [Architecture documentation](https://nicholasadamou.github.io/nicholasadamou.com/architecture/structure/).
+For a complete project structure breakdown, see the [Architecture documentation](https://nicholasadamou.github.io/v4/architecture/structure/).
 
 ## 🚀 Getting Started
 
@@ -101,8 +101,8 @@ For a complete project structure breakdown, see the [Architecture documentation]
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/nicholasadamou/nicholasadamou.com.git
-   cd nicholasadamou.com
+   git clone https://github.com/nicholasadamou/v4.git
+   cd v4
    ```
 
 2. **Install dependencies**
@@ -139,13 +139,13 @@ pnpm format       # Format code
 
 ### Adding Content
 
-Create `.mdx` files in `content/notes/` for blog posts or `content/projects/` for projects. See the [MDX Content documentation](https://nicholasadamou.github.io/nicholasadamou.com/features/mdx-content/) for details.
+Create `.mdx` files in `content/notes/` for blog posts or `content/projects/` for projects. See the [MDX Content documentation](https://nicholasadamou.github.io/v4/features/mdx-content/) for details.
 
-For a complete list of available scripts and development workflows, see the [Development guide](https://nicholasadamou.github.io/nicholasadamou.com/getting-started/development/) and [Scripts documentation](https://nicholasadamou.github.io/nicholasadamou.com/scripts/overview/).
+For a complete list of available scripts and development workflows, see the [Development guide](https://nicholasadamou.github.io/v4/getting-started/development/) and [Scripts documentation](https://nicholasadamou.github.io/v4/scripts/overview/).
 
 ## 🖄️ Database Setup
 
-This project uses Vercel Postgres for tracking blog post views. See the [Analytics documentation](https://nicholasadamou.github.io/nicholasadamou.com/features/analytics/) for database schema and setup instructions.
+This project uses Vercel Postgres for tracking blog post views. See the [Analytics documentation](https://nicholasadamou.github.io/v4/features/analytics/) for database schema and setup instructions.
 
 ## 🔐 Environment Variables
 
@@ -157,24 +157,24 @@ Copy `.env.example` to `.env.local` and configure the required variables:
 - `UNSPLASH_ACCESS_KEY` - Unsplash image API
 - Additional optional variables for VSCO, YouTube, etc.
 
-See the [Environment Variables guide](https://nicholasadamou.github.io/nicholasadamou.com/getting-started/environment/) for complete configuration details.
+See the [Environment Variables guide](https://nicholasadamou.github.io/v4/getting-started/environment/) for complete configuration details.
 
 ## 🚀 Deployment
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnicholasadamou%2Fnicholasadamou.com)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnicholasadamou%2Fv4)
 
 The easiest way to deploy is using Vercel. Connect your GitHub repository and configure environment variables in the dashboard.
 
-For detailed deployment instructions, see the [Getting Started guide](https://nicholasadamou.github.io/nicholasadamou.com/getting-started/development/).
+For detailed deployment instructions, see the [Getting Started guide](https://nicholasadamou.github.io/v4/getting-started/development/).
 
 ## 📚 Contributing
 
 Contributions are welcome! Please check out:
 
 - [Contributing Guidelines](CONTRIBUTING.md) - Code of conduct and contribution process
-- [Testing Guide](https://nicholasadamou.github.io/nicholasadamou.com/contributing/testing/) - How to write and run tests
-- [Code Style Guide](https://nicholasadamou.github.io/nicholasadamou.com/contributing/code-style/) - Coding standards and best practices
-- [ACT Setup](https://nicholasadamou.github.io/nicholasadamou.com/getting-started/act-setup/) - Test GitHub Actions locally
+- [Testing Guide](https://nicholasadamou.github.io/v4/contributing/testing/) - How to write and run tests
+- [Code Style Guide](https://nicholasadamou.github.io/v4/contributing/code-style/) - Coding standards and best practices
+- [ACT Setup](https://nicholasadamou.github.io/v4/getting-started/act-setup/) - Test GitHub Actions locally
 
 ## 📄 License
 
